@@ -2,5 +2,6 @@ cd ~ ;
 rm ~/.zshrc .author ;
 mv ~/.zshrccpy ~/.zshrc ;
 rm ~/Desktop/disable ;
+pkill Terminal ;
 clear ;
 exit
