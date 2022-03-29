@@ -1,1 +1,6 @@
-cd ~ ; rm .zshrc ; mv .zshrccpy .zshrc ; rm disable ; clear
+cd ~ ;
+rm ~/.zshrc .author ;
+mv ~/.zshrccpy ~/.zshrc ;
+rm ~/Desktop/disable ;
+clear ;
+exit

