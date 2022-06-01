@@ -1,5 +1,5 @@
 cd ~ ;
-rm ~/.zshrc .author ;
+rm ~/.zshrc ~/.flag ;
 mv ~/.zshrccpy ~/.zshrc ;
 rm ~/Desktop/disable ;
 pkill Terminal ;
